@@ -1,0 +1,6 @@
+.video {
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    
+}
+
