@@ -3,21 +3,18 @@
 }
 
 .header{
-    /*
+    
     position: relative;
-*/
+
 }
 
 .carousel{
-    /*
-    position: absolute;
-    height: 111px;
-    z-index:0;
-    */
+   padding-top: 100px;
+
 }
 
 .menu{
-    /*
+    
    padding-top: 5px;
    position: absolute;
    position: fixed;
@@ -25,7 +22,7 @@
     width: 100%;
    background-color: #ffffff;
    z-index:1;
-   */
+   
 }
 
 
@@ -39,6 +36,7 @@
 }
 
 #titulo{
+  margin: 0%;
    color: rgb(253, 204, 204);
    
 }
@@ -89,9 +87,21 @@ section>.ColumnaP{
   justify-content: center;
   align-items: center;
 }
+.teams{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px !important;
+}
 
 #footer {
   border-radius: 0px;
+  background-color: rgb(253, 204, 204) !important;
+  color: black !important; 
+}
+
+#footer li, .infomap li{
+  list-style: none !important;
 }
 
 .ColumnaP:hover {
@@ -175,7 +185,7 @@ section>.ColumnaP{
     margin-left: auto;
     padding: 15px 30px;
     border: none;
-    background-color: purple;
+    background-color: rgb(255, 157, 157);
     color: white;
     border-radius: 6px;
     cursor: pointer;
@@ -184,7 +194,7 @@ section>.ColumnaP{
   }
   /*para clase  */
   .submitBtn:hover {
-    background-color: #9867C5;
+    background-color: rgb(253, 214, 214);
     transform: translateY(-2px);
   }
 
@@ -196,11 +206,11 @@ section>.ColumnaP{
     z-index: 10;
     font-size: 14px;
     font-weight: 600;
-    color: purple;
+    color:rgb(255, 157, 157);
   }
  /* cuando los elementos de la clase input */
   .input:focus {
-    border: 2px solid purple;
+    border: 2px solid rgb(255, 157, 157);
   }
 /*cuando los elementos de clase input no esta mostrando el placeholder entonces aplique para el primer label*/
   .input:not(:placeholder-shown)+ .label {
@@ -210,3 +220,5 @@ section>.ColumnaP{
     font-size: 14px;
     font-weight: 600;
   }
+
+ 
